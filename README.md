@@ -12,6 +12,7 @@ O objetivo deste aplicativo em Pascal é oferecer uma solução eficiente para r
 ## Detalhes Adicionais
 - **Novo Diretório de Destino:** O usuário pode especificar o local onde deseja que os arquivos reorganizados sejam armazenados.
 - **Flexibilidade de Configuração:** A opção ***Ignorar arquivos dentro de subdiretórios*** permite que o aplicativo considere apenas os arquivos na raiz do diretório de origem. Isto é, arquivos dentro de subpastas não serão copiados.
+- **Diretório de origem permanece intacto:** É importante ressaltar que o diretório de origem permanece intacto após o processamento. Os arquivos são copiados para a nova estrutura de pastas sem modificar o diretório original, deixando a critério do usuário realizar a exclusão do diretório de origem após o processamento.
   
 ## Benefícios
 ### Organização Eficiente
@@ -24,10 +25,9 @@ Minimizando a intervenção humana, o risco de erros durante o processo é signi
 ## Nota
 - O aplicativo acompanha um diretório amostra com 13 arquivos de diferentes extensões, ideal para testar e entender seu funcionamento. O executável também está disponível para execução sem a necessidade de compilação.
 
-```
-# Caminho para o diretório amostra:
-> ./ReorganizadorDeArquivos/samples/DiretorioAmostra
-```
+  ```
+  > # Caminho para o diretório amostra: ./ReorganizadorDeArquivos/samples/DiretorioAmostra
+  ```
 
 ## Pré-requisitos
 Desenvolvido na versão 2.2.6 da IDE Lazarus, sem dependências adicionais.
