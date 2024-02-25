@@ -32,5 +32,8 @@ Minimizando a intervenção humana, o risco de erros durante o processo é signi
 ## Pré-requisitos
 Desenvolvido na versão 2.2.6 da IDE Lazarus, sem dependências adicionais.
 
+## Telas
+<img src="https://raw.githubusercontent.com/SimoesLeticia/Pascal-ReorganizadorDeDiretorios/main/assets/tela_sobre.png" width="50%"><img src="https://raw.githubusercontent.com/SimoesLeticia/Pascal-ReorganizadorDeDiretorios/main/assets/tela_reorganizador.png" width="50%">
+
 ## Contribuições
 Contribuições são sempre bem-vindas! Se você tem sugestões de melhorias, encontrou algum bug ou simplesmente quer dizer "olá 👋🏽", sinta-se à vontade para abrir uma issue ou enviar um pull request.
