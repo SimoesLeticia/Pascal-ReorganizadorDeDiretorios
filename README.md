@@ -6,7 +6,7 @@ O objetivo deste aplicativo em Pascal é oferecer uma solução eficiente para r
 - **Análise de Arquivos:** O aplicativo escaneia o diretório especificado, identificando todos os arquivos presentes.
 - **Criação de Estrutura de Pastas:** Com base na data de criação e extensão dos arquivos, o programa cria uma nova estrutura de pastas para armazená-los de forma organizada.
 - **Realocação de Arquivos:** Cada arquivo é copiado para a pasta correspondente à sua data de criação e extensão, mantendo a hierarquia estabelecida.
-- **Tratamento de Duplicatas:** Em casos de arquivos duplicados, todas as cópias são mantidas na nova estrutura de pastas.
+- **Tratamento de Duplicatas:** Em casos de arquivos duplicados (que possuam o mesmo nome, data de criação e extensão), todas as cópias são mantidas na nova estrutura de pastas.
 - **Relatório de Processamento:** Após a conclusão da reorganização, é gerado um arquivo log detalhado, indicando quais arquivos foram movidos e para qual pasta. Este arquivo pode ser encontrado na raiz do projeto com o nome `LOG.log`.
 
 ## Detalhes Adicionais
